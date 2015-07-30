@@ -17,7 +17,7 @@ class Board
     check_boundaries(positions)
     overlap(positions, @ship_positions)
     @ship_positions << positions
-    @ships = 
+    positions.each { |cell| @ships[cell] = ship }
   end
 
   def define_coordinates(ship, cell, direction)

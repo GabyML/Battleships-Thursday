@@ -26,8 +26,8 @@ describe Board do
   	expect{subject.check_boundaries(array3)}.to raise_error 'Outside Boundaries'
   end
 
-  it 'gets a shoot from the player' do
-  	
+  xit 'gets a shoot from the player' do
+
   end
 
 end 
